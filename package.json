@@ -1,0 +1,12 @@
+{
+  "name": "sample-nodejs-hello-world",
+  "version": "1.0.0",
+  "description": "Minimal Node.js hello-world app for testing CI/CD build + deploy pipelines",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "node -e \"console.log('Build check passed')\"",
+    "test": "node test.js"
+  },
+  "license": "MIT"
+}
