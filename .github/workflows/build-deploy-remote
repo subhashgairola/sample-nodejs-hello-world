@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: Build and Deploy remote
 
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
           node-version: "20"
 
       - name: Run build check
-        run: npm run build1
+        run: npm run build
 
       - name: Run tests
         run: npm test
@@ -33,5 +33,5 @@ jobs:
       - name: Deploy (simulated)
         run: |
           echo "Deploying sample-nodejs-hello-world..."
-          node index.js
+          node index1.js
           echo "Deploy complete."
