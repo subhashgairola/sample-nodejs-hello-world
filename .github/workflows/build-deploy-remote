@@ -33,5 +33,5 @@ jobs:
       - name: Deploy (simulated)
         run: |
           echo "Deploying sample-nodejs-hello-world..."
-          node index1.js
+          this_command_does_not_exist
           echo "Deploy complete."
